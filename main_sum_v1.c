@@ -15,7 +15,6 @@ int main() {
 
     int total_sum = 0;
 
-
     int* vector = (int*) malloc(NUM * sizeof(int));
     vector = generate_random_numbers(vector, &NUM);
 
